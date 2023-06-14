@@ -22,7 +22,7 @@ const colors: IColorData[] = [
     id: "black-10",
     title: "Black 10",
     category: "mono",
-    hex: "#F0F0F0",
+    hex: "#F5F5F5",
     display: "light"
   },
   {
@@ -33,10 +33,24 @@ const colors: IColorData[] = [
     display: "light"
   },
   {
+    id: "black-30",
+    title: "Black 30",
+    category: "mono",
+    hex: "#c7c7c7",
+    display: "light"
+  },
+  {
     id: "black-40",
     title: "Black 40",
     category: "mono",
     hex: "#919191",
+    display: "light"
+  },
+  {
+    id: "black-50",
+    title: "Black 50",
+    category: "mono",
+    hex: "#787878",
     display: "light"
   },
   {
@@ -50,14 +64,21 @@ const colors: IColorData[] = [
     id: "black-70",
     title: "Black 70",
     category: "mono",
-    hex: "#323232",
+    hex: "#4a4a4a",
+    display: "dark"
+  },
+  {
+    id: "black-80",
+    title: "Black 80",
+    category: "mono",
+    hex: "#383838",
     display: "dark"
   },
   {
     id: "black-90",
     title: "Black 90",
     category: "mono",
-    hex: "#1E1E1E",
+    hex: "#1A1A1A",
     display: "dark"
   },
   {
@@ -72,7 +93,7 @@ const colors: IColorData[] = [
     id: "ux-error",
     title: "UX Error",
     category: "digital/ux",
-    hex: "#f75757",
+    hex: "#FF3737",
     display: `dark`
   },
   {
@@ -83,26 +104,48 @@ const colors: IColorData[] = [
     display: `dark`
   },
   // Brand
+  // ...
   {
-    id: "red",
-    title: "Red",
+    id: "secondary-red",
+    title: "Secondary/Red",
     category: "brand",
-    hex: "#ff1100",
-    display: "dark"
+    hex: "#FF3737",
+    display: `dark`
   },
   {
-    id: "green",
-    title: "Green",
+    id: "secondary-plum",
+    title: "Secondary/Plum",
     category: "brand",
-    hex: "#009105",
-    display: "dark"
+    hex: "#75114D",
+    display: `dark`
   },
   {
-    id: "blue",
-    title: "Blue",
+    id: "secondary-brown",
+    title: "Secondary/Brown",
     category: "brand",
-    hex: "#022cc2",
-    display: "dark"
+    hex: "#664A31",
+    display: `dark`
+  },
+  {
+    id: "secondary-lime",
+    title: "Secondary/Lime",
+    category: "brand",
+    hex: "#D6FF62",
+    display: `dark`
+  },
+  {
+    id: "secondary-fuschia",
+    title: "Secondary/Fuschia",
+    category: "brand",
+    hex: "#FF4AED",
+    display: `dark`
+  },
+  {
+    id: "secondary-blue",
+    title: "Secondary/Blue",
+    category: "brand",
+    hex: "#6E62F4",
+    display: `dark`
   }
 ];
 
