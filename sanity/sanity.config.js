@@ -4,8 +4,8 @@ import { structure, defaultDocumentNode } from "./desk/deskStructure";
 import schemas from "./schemas/schema";
 
 export default defineConfig({
-  title: `XXX ToolKit`,
-  projectId: `gi242c7p`,
+  title: `LAM Mini Toolkit`,
+  projectId: `gbhdoh8n`,
   dataset: `production`,
   plugins: [
     deskTool({
