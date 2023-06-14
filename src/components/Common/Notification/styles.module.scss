@@ -1,0 +1,44 @@
+@import "~styles/breakpoints.module.scss";
+
+.container {
+  position: fixed;
+  bottom: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+
+  @media only screen and (min-width: $large-tablet) {
+    bottom: 3rem;
+  }
+}
+
+@keyframes show-notification {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+.notification {
+  background: var(--color-black-10);
+  padding: 1rem;
+  min-width: 316px;
+  opacity: 0;
+  transform: translateY(20px);
+  text-align: center;
+  transition: all 0.3s;
+  animation: show-notification 1.5s;
+}

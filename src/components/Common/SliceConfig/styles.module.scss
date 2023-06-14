@@ -1,0 +1,63 @@
+@import "~styles/breakpoints.module.scss";
+
+.container {
+  width: 100%;
+
+  &.paddingTopRegular {
+    padding-top: 3.5rem;
+
+    @media only screen and (min-width: $small-desktop) {
+      padding-top: 6.75rem;
+    }
+  }
+
+  &.paddingTopSmall {
+    padding-top: 1.5rem;
+
+    @media only screen and (min-width: $small-desktop) {
+      padding-top: 3.5rem;
+    }
+  }
+
+  &.paddingBottomRegular {
+    padding-bottom: 3.5rem;
+
+    @media only screen and (min-width: $small-desktop) {
+      padding-bottom: 6.75rem;
+    }
+  }
+
+  &.paddingBottomSmall {
+    padding-bottom: 1.5rem;
+
+    @media only screen and (min-width: $small-desktop) {
+      padding-bottom: 3.5rem;
+    }
+  }
+
+  &.paddingXRegular {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    @media only screen and (min-width: $small-desktop) {
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+    }
+  }
+
+  &.paddingXSmall {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+    @media only screen and (min-width: $small-desktop) {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+}
+
+.content {
+  max-width: 1700px;
+  margin: auto;
+  width: 100%;
+}

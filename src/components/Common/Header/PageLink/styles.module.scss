@@ -1,0 +1,53 @@
+@import "~styles/breakpoints.module.scss";
+
+.container {
+  display: inline-block;
+}
+
+.listItem {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    background-color: var(--color-black);
+    margin-right: 0rem;
+    transition: all 0.2s;
+    margin-bottom: 4px;
+
+    @media only screen and (min-width: $tablet) {
+      margin-bottom: 6px;
+    }
+
+    @media only screen and (min-width: $large-tablet) {
+      margin-bottom: 8px;
+    }
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      &::before {
+        width: 16px;
+        height: 16px;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+
+  &.activePage {
+    &::before {
+      width: 16px;
+      height: 16px;
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+.disabledLink {
+  opacity: 0.5;
+  pointer-events: none;
+}

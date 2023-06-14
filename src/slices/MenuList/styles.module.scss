@@ -1,0 +1,62 @@
+@import "~styles/breakpoints.module.scss";
+
+.categoryGroup {
+  border-top: 1px solid currentColor;
+  padding: 0.75rem 0;
+}
+
+.categoryTitle {
+  grid-column: 1 / 4;
+}
+
+.links {
+  grid-column: 4 / -1;
+}
+
+@media only screen and (min-width: $small-desktop) {
+  .categoryTitle {
+    grid-column: 1 / 5;
+  }
+
+  .links {
+    grid-column: 5 / -1;
+  }
+}
+
+.listItem {
+  margin-bottom: 1rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.link {
+  margin-bottom: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &.activePage {
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      background-color: currentColor;
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+.disabledLink {
+  opacity: 0.5;
+  pointer-events: none;
+}

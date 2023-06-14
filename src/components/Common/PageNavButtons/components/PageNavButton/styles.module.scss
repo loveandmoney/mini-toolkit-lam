@@ -1,0 +1,39 @@
+@import "~styles/breakpoints.module.scss";
+
+.button {
+  background: var(--color-white);
+  color: var(--color-black);
+  padding: 1.5rem 1rem;
+  border: 1px solid var(--color-black);
+  transition: background-color 0.2s;
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      background: var(--color-black-10);
+    }
+  }
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media only screen and (min-width: $small-tablet) {
+    justify-content: space-between;
+  }
+}
+
+.text {
+  &:nth-child(2) {
+    margin-left: 1rem;
+  }
+
+  &:nth-child(1) {
+    margin-right: 1rem;
+  }
+}
+
+.icon {
+  height: 14px;
+}

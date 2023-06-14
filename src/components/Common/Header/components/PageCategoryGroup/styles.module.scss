@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+  position: relative;
+  margin: 0 0 2.5rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.heading {
+  margin-bottom: 0.333rem;
+  color: var(--color-black);
+}
+
+.list {
+  position: relative;
+}

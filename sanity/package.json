@@ -1,0 +1,29 @@
+{
+  "name": "toolkit-xxx",
+  "private": true,
+  "version": "1.0.0",
+  "description": "XXX ToolKit",
+  "main": "package.json",
+  "author": "Love and Money <hello@loveandmoney.agency>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build",
+    "dev": "sanity dev"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/eslint-config-studio": "^2.0.1",
+    "@sanity/form-builder": "^2.35.7",
+    "@sanity/orderable-document-list": "^1.0.4",
+    "@sanity/vision": "^3.8.3",
+    "eslint": "^8.38.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sanity": "^3.8.3",
+    "styled-components": "^5.3.5"
+  }
+}

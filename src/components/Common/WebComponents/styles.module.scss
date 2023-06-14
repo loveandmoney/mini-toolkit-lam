@@ -1,0 +1,62 @@
+@import "~styles/breakpoints.module.scss";
+$BREAKPOINT: $large-tablet;
+
+.container {
+  margin: 40px 0;
+  background: white;
+  grid-column: span 9;
+  padding: 1rem;
+  border-radius: 1rem;
+
+  @media only screen and (min-width: $BREAKPOINT) {
+    display: flex;
+  }
+}
+
+.buttons {
+  @media only screen and (min-width: $BREAKPOINT) {
+    width: 300px;
+  }
+}
+
+.button {
+  border: 1px solid black;
+  margin: 0 1rem 1rem 0;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem;
+
+  &.selected {
+    background: black;
+    color: white;
+  }
+  @media only screen and (min-width: $BREAKPOINT) {
+    width: 100%;
+  }
+}
+
+.partition {
+  border-top: 1px solid var(--color-black-20);
+  margin-bottom: 2rem;
+
+  @media only screen and (min-width: $BREAKPOINT) {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-top: none;
+    border-left: 1px solid var(--color-black-20);
+  }
+}
+
+.componentContainer {
+  @media only screen and (min-width: $BREAKPOINT) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 2rem;
+
+    > * {
+      width: 300px;
+    }
+  }
+}

@@ -1,0 +1,66 @@
+@import "~styles/breakpoints.module.scss";
+
+.toggleButtons {
+  margin-bottom: 1rem;
+  display: none;
+  @media only screen and (min-width: $small-tablet) {
+    display: block;
+  }
+
+  button {
+    text-transform: uppercase;
+    margin-right: 1rem;
+    color: currentColor;
+    opacity: 0.4;
+    padding: 0.5rem 0;
+
+    &.activeOption {
+      opacity: 1;
+    }
+  }
+}
+
+.grid {
+  text-transform: lowercase;
+
+  &.uppercase {
+    button {
+      text-transform: uppercase;
+    }
+  }
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  @media only screen and (min-width: $mobile) {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  @media only screen and (min-width: $small-tablet) {
+    grid-template-columns: repeat(9, 1fr);
+  }
+}
+
+.gridItem {
+  border: 1px solid currentColor;
+  position: relative;
+  padding-bottom: 100%;
+  margin-left: -1px;
+  margin-top: -1px;
+  transition: transform 0.1s;
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      transform: scale(1.2);
+      z-index: 2;
+    }
+  }
+
+  &Content {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

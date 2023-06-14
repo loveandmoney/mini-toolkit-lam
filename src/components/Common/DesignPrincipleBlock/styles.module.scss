@@ -1,0 +1,64 @@
+@import "~styles/breakpoints.module.scss";
+
+.container {
+  border-top: 1px solid var(--color-black-40);
+  position: relative;
+}
+
+.colorBackground {
+  position: absolute;
+  inset: 0;
+  width: 0;
+  transition: width 0.6s;
+
+  &.visible {
+    width: 100%;
+  }
+}
+
+.content {
+  position: relative;
+}
+
+.title {
+  margin-bottom: 100px;
+  grid-column: 1/-1;
+}
+
+.principles {
+  grid-column: 1/-1;
+}
+
+.principle {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 0.6s;
+
+  &.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media only screen and (min-width: $tablet) {
+  .title {
+    grid-column: 1/5;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .principles {
+    grid-column: 6/-1;
+  }
+}
+
+@media only screen and (min-width: $small-desktop) {
+  .title {
+    grid-column: 1/8;
+  }
+
+  .principles {
+    grid-column: 10/-1;
+  }
+}

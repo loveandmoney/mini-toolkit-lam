@@ -1,0 +1,12 @@
+.linkTag {
+  display: inline;
+  padding: 6px 8px;
+  background: var(--color-black-10);
+  transition: background-color 0.2s;
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      background: var(--hover-bg-color);
+    }
+  }
+}

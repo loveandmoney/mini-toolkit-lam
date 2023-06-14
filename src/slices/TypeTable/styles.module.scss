@@ -1,0 +1,72 @@
+@import "~styles/breakpoints.module.scss";
+
+.container {
+  width: 100%;
+  position: relative;
+}
+
+.breakpointSet {
+  margin-bottom: 5rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--color-black-20);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.specimenRow {
+  border-bottom: 1px solid var(--color-black-20);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.wideColumn {
+  flex: 4;
+
+  @media only screen and (min-width: $large-desktop) {
+    flex: 7;
+  }
+}
+
+.narrowColumn {
+  flex: 1;
+  display: none;
+
+  @media only screen and (min-width: $large-tablet) {
+    display: block;
+  }
+}
+
+.colRightAlign {
+  text-align: right;
+}
+
+.toggleButtons {
+  margin-bottom: 2rem;
+
+  button {
+    margin-right: 1rem;
+    color: var(--color-black);
+    padding: 0.5rem;
+    border: 1px solid var(--color-black);
+    transition: all 0.2s;
+
+    &.activeOption {
+      color: var(--color-white);
+      background: var(--color-black);
+      border: 1px solid var(--color-black);
+    }
+  }
+}

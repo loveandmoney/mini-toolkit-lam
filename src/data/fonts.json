@@ -1,0 +1,24 @@
+{
+  "Neue Montreal Book": [
+    {
+      "fontDisplay": "block",
+      "fontStyle": "normal",
+      "fontWeight": "400",
+      "files": {
+        "woff2": "PPNeueMontreal-Book.woff2",
+        "woff": "PPNeueMontreal-Book.woff"
+      }
+    }
+  ],
+  "Neue Montreal Regular": [
+    {
+      "fontDisplay": "block",
+      "fontStyle": "normal",
+      "fontWeight": "400",
+      "files": {
+        "woff2": "PPNeueMontreal-Regular.woff2",
+        "woff": "PPNeueMontreal-Regular.woff"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+@import "~styles/animations.module.scss";
+@import "~styles/breakpoints.module.scss";
+
+.wrapper {
+  position: relative;
+}
+
+.content {
+  animation: 1s var(--cubic-easing) appear forwards;
+  animation-delay: 0.125s;
+  opacity: 0;
+  padding: 0 1rem;
+  grid-column: span 9 / span 9;
+  min-height: 110vh;
+
+  &.preview {
+    grid-column: 1 / -1;
+  }
+
+  @media only screen and (min-width: $small-desktop) {
+    padding: 2rem 0;
+  }
+}

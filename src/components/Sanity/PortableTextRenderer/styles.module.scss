@@ -1,0 +1,25 @@
+.container {
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  ul,
+  ol {
+    margin-bottom: 1rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.orderedListItem {
+  list-style-type: decimal;
+  margin-left: 1em;
+}
+
+.unorderedListItem {
+  list-style-type: disc;
+  margin-left: 1em;
+}

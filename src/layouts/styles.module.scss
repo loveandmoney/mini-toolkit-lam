@@ -1,0 +1,16 @@
+@import "~styles/animations.module.scss";
+
+.container {
+  width: 100%;
+  position: relative;
+}
+
+.preview {
+  .sidebar {
+    display: none;
+  }
+
+  .content {
+    grid-column: 1 / -1;
+  }
+}

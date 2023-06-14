@@ -1,0 +1,17 @@
+@import "~styles/breakpoints.module.scss";
+
+.grid {
+  width: 100%;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(8, 1fr);
+
+  @media only screen and (min-width: $small-tablet) {
+    gap: 1rem;
+  }
+
+  @media only screen and (min-width: $small-desktop) {
+    gap: 1.5rem;
+    grid-template-columns: repeat(12, 1fr);
+  }
+}

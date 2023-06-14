@@ -1,0 +1,31 @@
+.container {
+  will-change: opacity transform;
+}
+
+.fade {
+  opacity: 0;
+
+  &.visible {
+    opacity: 1;
+  }
+}
+
+.fadeUp {
+  opacity: 0;
+  transform: translateY(2rem);
+
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeGrow {
+  opacity: 0;
+  transform: scale(0.9);
+
+  &.visible {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
