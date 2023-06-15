@@ -31,7 +31,7 @@
         "id": "Heading 2",
         "className": "h2",
         "attributes": {
-          "fontFamily": "\"ABC Diatype Regular\", \"Helvetica Neue\", \"Helvetica\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontFamily": "\"ABC Diatype Light\", \"Helvetica Neue\", \"Helvetica\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
           "fontSize": "26px",
           "fontStyle": "normal",
           "fontWeight": 400,
@@ -43,7 +43,7 @@
         "id": "Heading 3",
         "className": "h3",
         "attributes": {
-          "fontFamily": "\"ABC Diatype Regular\", \"Helvetica Neue\", \"Helvetica\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontFamily": "\"ABC Diatype Light\", \"Helvetica Neue\", \"Helvetica\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
           "fontSize": "20px",
           "fontStyle": "normal",
           "fontWeight": 400,
@@ -104,8 +104,7 @@
         "id": "Button Underline",
         "className": "button-text-underline",
         "attributes": {
-          "fontFamily": "\"ABC Diatype Regular\", \"Helvetica Neue\", \"Helvetica\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
-          "fontSize": "14px",
+          "fontFamily": "\"ABC Diatype Regular\", \"Helvetica Neue\", \"Helvetica\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"","fontSize": "14px",
           "fontStyle": "normal",
           "fontWeight": 400,
           "lineHeight": "100%",
@@ -147,7 +146,7 @@
         "id": "Heading 2",
         "className": "h2",
         "attributes": {
-          "fontFamily": "\"ABC Diatype Regular\", \"Helvetica Neue\", \"Helvetica\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontFamily": "\"ABC Diatype Light\", \"Helvetica Neue\", \"Helvetica\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
           "fontSize": "26px",
           "fontStyle": "normal",
           "fontWeight": 400,
@@ -159,7 +158,7 @@
         "id": "Heading 3",
         "className": "h3",
         "attributes": {
-          "fontFamily": "\"ABC Diatype Regular\", \"Helvetica Neue\", \"Helvetica\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontFamily": "\"ABC Diatype Light\", \"Helvetica Neue\", \"Helvetica\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
           "fontSize": "20px",
           "fontStyle": "normal",
           "fontWeight": 400,
@@ -263,7 +262,7 @@
         "id": "Heading 2",
         "className": "h2",
         "attributes": {
-          "fontFamily": "\"ABC Diatype Regular\", \"Helvetica Neue\", \"Helvetica\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontFamily": "\"ABC Diatype Light\", \"Helvetica Neue\", \"Helvetica\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
           "fontSize": "24px",
           "fontStyle": "normal",
           "fontWeight": 400,
@@ -275,7 +274,7 @@
         "id": "Heading 3",
         "className": "h3",
         "attributes": {
-          "fontFamily": "\"ABC Diatype Regular\", \"Helvetica Neue\", \"Helvetica\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontFamily": "\"ABC Diatype Light\", \"Helvetica Neue\", \"Helvetica\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
           "fontSize": "20px",
           "fontStyle": "normal",
           "fontWeight": 400,

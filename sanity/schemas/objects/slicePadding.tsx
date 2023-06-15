@@ -1,4 +1,5 @@
 type IPaddingOption = `regular` | `small` | `none`;
+// How the fuck do I change these values?
 
 export interface ISlicePadding {
   paddingTop?: IPaddingOption;
