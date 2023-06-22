@@ -36,6 +36,7 @@ $HEADER_HEIGHT: 54px;
 
   &.open {
     color: var(--color-black);
+    fill: var(--color-black);
   }
 
   &.solidBackground {
@@ -46,7 +47,7 @@ $HEADER_HEIGHT: 54px;
 
 .wordmark {
   height: 100%;
-  color: currentColor;
+  fill: currentColor;
 }
 
 .homeLink {
@@ -70,6 +71,7 @@ $HEADER_HEIGHT: 54px;
   position: relative;
 
   &.open {
+    
     .line {
       background-color: var(--color-black);
     }
